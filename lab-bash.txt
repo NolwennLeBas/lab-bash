@@ -1,0 +1,175 @@
+Microsoft Windows [version 10.0.22631.3296]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\nolwe>cd IH-Labs
+
+C:\Users\nolwe\IH-Labs>git clone https://github.com/NolwennLeBas/lab-bash.git
+Cloning into 'lab-bash'...
+remote: Enumerating objects: 40, done.
+remote: Total 40 (delta 0), reused 0 (delta 0), pack-reused 40
+Receiving objects: 100% (40/40), 12.63 KiB | 2.53 MiB/s, done.
+Resolving deltas: 100% (11/11), done.
+
+C:\Users\nolwe\IH-Labs>cd lab-bash
+
+C:\Users\nolwe\IH-Labs\lab-bash>dir
+ Le volume dans le lecteur C s’appelle OS
+ Le numéro de série du volume est B88A-49CA
+
+ Répertoire de C:\Users\nolwe\IH-Labs\lab-bash
+
+01/04/2024  22:43    <DIR>          .
+01/04/2024  22:43    <DIR>          ..
+01/04/2024  22:43             6 148 .DS_Store
+01/04/2024  22:43    <DIR>          .github
+01/04/2024  22:43    <DIR>          exercices
+01/04/2024  22:43    <DIR>          inputs
+01/04/2024  22:43    <DIR>          lorem
+01/04/2024  22:43    <DIR>          lorem-copy
+01/04/2024  22:43    <DIR>          outputs
+01/04/2024  22:43             2 597 readme.md
+               2 fichier(s)            8 745 octets
+               8 Rép(s)  297 120 129 024 octets libres
+
+C:\Users\nolwe\IH-Labs\lab-bash>echo "Hello world"
+"Hello world"
+
+C:\Users\nolwe\IH-Labs\lab-bash>mkdir new_dir
+
+C:\Users\nolwe\IH-Labs\lab-bash>dir
+ Le volume dans le lecteur C s’appelle OS
+ Le numéro de série du volume est B88A-49CA
+
+ Répertoire de C:\Users\nolwe\IH-Labs\lab-bash
+
+01/04/2024  22:45    <DIR>          .
+01/04/2024  22:43    <DIR>          ..
+01/04/2024  22:43             6 148 .DS_Store
+01/04/2024  22:43    <DIR>          .github
+01/04/2024  22:43    <DIR>          exercices
+01/04/2024  22:43    <DIR>          inputs
+01/04/2024  22:43    <DIR>          lorem
+01/04/2024  22:43    <DIR>          lorem-copy
+01/04/2024  22:45    <DIR>          new_dir
+01/04/2024  22:43    <DIR>          outputs
+01/04/2024  22:43             2 597 readme.md
+               2 fichier(s)            8 745 octets
+               9 Rép(s)  297 118 834 688 octets libres
+
+C:\Users\nolwe\IH-Labs\lab-bash>rmdir new_dir
+
+C:\Users\nolwe\IH-Labs\lab-bash>dir
+ Le volume dans le lecteur C s’appelle OS
+ Le numéro de série du volume est B88A-49CA
+
+ Répertoire de C:\Users\nolwe\IH-Labs\lab-bash
+
+01/04/2024  22:46    <DIR>          .
+01/04/2024  22:43    <DIR>          ..
+01/04/2024  22:43             6 148 .DS_Store
+01/04/2024  22:43    <DIR>          .github
+01/04/2024  22:43    <DIR>          exercices
+01/04/2024  22:43    <DIR>          inputs
+01/04/2024  22:43    <DIR>          lorem
+01/04/2024  22:43    <DIR>          lorem-copy
+01/04/2024  22:43    <DIR>          outputs
+01/04/2024  22:43             2 597 readme.md
+               2 fichier(s)            8 745 octets
+               8 Rép(s)  297 118 830 592 octets libres
+
+C:\Users\nolwe\IH-Labs\lab-bash>cd lorem
+
+C:\Users\nolwe\IH-Labs\lab-bash\lorem>copy sed.txt C:\Users\nolwe\IH-Labs\lab-bash\lorem-copy
+        1 fichier(s) copié(s).
+
+C:\Users\nolwe\IH-Labs\lab-bash\lorem>cd..
+
+C:\Users\nolwe\IH-Labs\lab-bash>cd lorem-copy
+
+C:\Users\nolwe\IH-Labs\lab-bash\lorem-copy>dir
+ Le volume dans le lecteur C s’appelle OS
+ Le numéro de série du volume est B88A-49CA
+
+ Répertoire de C:\Users\nolwe\IH-Labs\lab-bash\lorem-copy
+
+01/04/2024  22:52    <DIR>          .
+01/04/2024  22:51    <DIR>          ..
+01/04/2024  22:43             6 148 .DS_Store
+01/04/2024  22:43                 0 .gitkeep
+01/04/2024  22:43                12 dummy_file.txt
+01/04/2024  22:43               900 sed.txt
+               4 fichier(s)            7 060 octets
+               2 Rép(s)  297 107 812 352 octets libres
+
+C:\Users\nolwe\IH-Labs\lab-bash\lorem-copy>cd..
+
+C:\Users\nolwe\IH-Labs\lab-bash>cd lorem
+
+C:\Users\nolwe\IH-Labs\lab-bash\lorem>copy at.txt C:\Users\nolwe\IH-Labs\lab-bash\lorem-copy
+        1 fichier(s) copié(s).
+
+C:\Users\nolwe\IH-Labs\lab-bash\lorem>copy lorem.txt C:\Users\nolwe\IH-Labs\lab-bash\lorem-copy
+        1 fichier(s) copié(s).
+
+C:\Users\nolwe\IH-Labs\lab-bash\lorem>cd..
+
+C:\Users\nolwe\IH-Labs\lab-bash>cd lorem-copy
+
+C:\Users\nolwe\IH-Labs\lab-bash\lorem-copy>dir
+ Le volume dans le lecteur C s’appelle OS
+ Le numéro de série du volume est B88A-49CA
+
+ Répertoire de C:\Users\nolwe\IH-Labs\lab-bash\lorem-copy
+
+01/04/2024  23:04    <DIR>          .
+01/04/2024  22:51    <DIR>          ..
+01/04/2024  22:43             6 148 .DS_Store
+01/04/2024  22:43                 0 .gitkeep
+01/04/2024  22:43               863 at.txt
+01/04/2024  22:43                12 dummy_file.txt
+01/04/2024  22:43               451 lorem.txt
+01/04/2024  22:43               900 sed.txt
+               6 fichier(s)            8 374 octets
+               2 Rép(s)  297 097 183 232 octets libres
+
+C:\Users\nolwe\IH-Labs\lab-bash\lorem-copy>cd..
+
+C:\Users\nolwe\IH-Labs\lab-bash>cd lorem
+
+C:\Users\nolwe\IH-Labs\lab-bash\lorem>type sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+
+C:\Users\nolwe\IH-Labs\lab-bash\lorem>type at.txt
+At vero eos ET accusamus ET iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+deleniti atque corrupti quos dolores ET quas molestias excepturi sint occaecati cupiditate non
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum ET dolorum fuga.
+Et harum quidem rerum facilis est ET expedita distinctio.
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Temporibus autem quibusdam ET aut officiis debitis aut rerum necessitatibus saepe eveniET
+ut ET voluptates repudiandae sint ET molestiae non recusandae.
+Itaque earum rerum hic tenETur a sapiente delectus, ut aut reiciendis voluptatibus maiores
+alias consequatur aut perferendis doloribus asperiores repellat
+
+C:\Users\nolwe\IH-Labs\lab-bash\lorem>type lorem.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+C:\Users\nolwe\IH-Labs\lab-bash\lorem>cd..
+
+C:\Users\nolwe\IH-Labs\lab-bash>cd lorem-copy
+
+C:\Users\nolwe\IH-Labs\lab-bash\lorem-copy>findstr /n . sed.txt | findstr "^[0-3]:"
+1:Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+2:totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+3:Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
